@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FIREWORKS ZD | Espectáculos autorizados</title>
+<meta name="description" content="FIREWORKS ZD: información institucional, galería de eventos autorizados y compromiso con la seguridad.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#inicio">Saltar al contenido</a>
+
+<header class="site-header">
+  <a class="brand" href="#inicio" aria-label="FIREWORKS ZD, inicio"><img src="assets/logo/logo.svg" alt="FIREWORKS ZD" width="180" height="40"></a>
+  <button class="menu-btn" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú"><span></span><span></span></button>
+  <nav id="menu" class="menu">
+    <a href="#inicio">Inicio</a><a href="#productos">Productos</a><a href="#nosotros">Nosotros</a><a href="#galeria">Galería</a><a href="#seguridad">Seguridad</a><a href="#contacto">Contacto</a>
+  </nav>
+</header>
+
+<main>
+<section id="inicio" class="hero">
+  <svg class="burst" viewBox="-200 -200 400 400" aria-hidden="true"></svg>
+  <div class="hero-text">
+    <h1 data-key="hero_titulo">Luz, precisión y responsabilidad</h1>
+    <p data-key="hero_texto">FIREWORKS ZD es una empresa dedicada a espectáculos pirotécnicos realizados por profesionales y bajo las autorizaciones correspondientes.</p>
+    <a class="btn" href="#nosotros">Conocer la empresa</a>
+  </div>
+</section>
+
+<section id="productos" class="section">
+  <h2>Productos</h2>
+  <p class="lead" data-key="productos_intro">Conoce nuestra línea de productos. Para consultas, escríbenos desde la sección Contacto.</p>
+  <div class="products" id="products"><p class="note">Cargando productos…</p></div>
+  <p class="note">Precios referenciales en soles (S/). Esta página no realiza ventas en línea.</p>
+</section>
+
+<section id="nosotros" class="section">
+  <h2>Nosotros</h2>
+  <p class="lead" data-key="nosotros_intro">[TEXTO PROVISIONAL: el administrador debe escribir aquí la presentación real de la empresa.]</p>
+  <div class="grid3">
+    <article class="panel"><h3>Historia</h3><p data-key="historia">[TEXTO PROVISIONAL: año de fundación, trayectoria y hitos de la empresa.]</p></article>
+    <article class="panel"><h3>Misión</h3><p data-key="mision">[TEXTO PROVISIONAL: razón de ser de la empresa.]</p></article>
+    <article class="panel"><h3>Visión</h3><p data-key="vision">[TEXTO PROVISIONAL: hacia dónde quiere llegar la empresa.]</p></article>
+  </div>
+  <h3 class="sub">Valores institucionales</h3>
+  <ul class="values" data-key="valores"><li>[Valor 1]</li><li>[Valor 2]</li><li>[Valor 3]</li><li>[Valor 4]</li></ul>
+</section>
+
+<section id="galeria" class="section dark">
+  <h2>Galería de eventos</h2>
+  <p class="lead">Fotografías de espectáculos autorizados. [TEXTO PROVISIONAL]</p>
+  <div class="cards">
+    <figure class="card"><button class="thumb" data-full="assets/images/placeholder.svg" data-cap="Evento 1: descripción general."><img src="assets/images/placeholder.svg" alt="Evento 1" loading="lazy"></button><figcaption>Evento 1: descripción general.</figcaption></figure>
+    <figure class="card"><button class="thumb" data-full="assets/images/placeholder.svg" data-cap="Evento 2: descripción general."><img src="assets/images/placeholder.svg" alt="Evento 2" loading="lazy"></button><figcaption>Evento 2: descripción general.</figcaption></figure>
+    <figure class="card"><button class="thumb" data-full="assets/images/placeholder.svg" data-cap="Evento 3: descripción general."><img src="assets/images/placeholder.svg" alt="Evento 3" loading="lazy"></button><figcaption>Evento 3: descripción general.</figcaption></figure>
+  </div>
+</section>
+
+<section id="seguridad" class="section">
+  <h2>Seguridad</h2>
+  <p class="lead" data-key="seguridad_intro">La seguridad es el requisito previo de cada espectáculo. [TEXTO PROVISIONAL]</p>
+  <div class="grid3">
+    <article class="panel"><h3>Prevención</h3><p data-key="prevencion">Los espectáculos pirotécnicos deben planificarse con medidas preventivas y respetar las distancias y condiciones indicadas por las autoridades.</p></article>
+    <article class="panel"><h3>Profesionales autorizados</h3><p data-key="profesionales">Solo personal capacitado y autorizado debe manipular productos pirotécnicos. Nunca lo hagas por tu cuenta.</p></article>
+    <article class="panel"><h3>Normativa y responsabilidad</h3><p data-key="normativa">[TEXTO PROVISIONAL: citar la normativa peruana aplicable (por ejemplo, la de SUCAMEC) tras verificarla con un asesor legal.]</p></article>
+  </div>
+</section>
+
+<section id="contacto" class="section dark">
+  <h2>Contacto</h2>
+  <div class="contact">
+    <ul class="info">
+      <li><strong>Empresa:</strong> FIREWORKS ZD</li>
+      <li><strong>Correo:</strong> <a href="mailto:fireworkszd.lima@gmail.com" data-key="correo">fireworkszd.lima@gmail.com</a></li>
+      <li><strong>Teléfono:</strong> <span data-key="telefono">+51 000 000 000</span></li>
+      <li><strong>Ubicación:</strong> <span data-key="ubicacion">Lima, Perú</span></li>
+    </ul>
+    <form id="form" novalidate>
+      <label for="nombre">Nombre</label><input id="nombre" required autocomplete="name">
+      <label for="email">Correo electrónico</label><input id="email" type="email" required autocomplete="email">
+      <label for="msg">Consulta institucional</label><textarea id="msg" rows="4" required></textarea>
+      <p class="note">Este formulario es solo para consultas institucionales. No se atienden pedidos ni compras.</p>
+      <button class="btn" type="submit">Enviar consulta</button>
+      <p id="estado" role="status"></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <img src="assets/logo/logo.svg" alt="FIREWORKS ZD" width="150" height="33">
+  <p>FIREWORKS ZD. [Información institucional provisional]</p>
+  <nav><a href="#inicio">Inicio</a><a href="#nosotros">Nosotros</a><a href="#galeria">Galería</a><a href="#seguridad">Seguridad</a><a href="#contacto">Contacto</a></nav>
+  <p><a href="#privacidad" id="priv-link">Aviso de privacidad</a></p>
+  <p id="privacidad" class="note" data-key="privacidad" hidden>[TEXTO PROVISIONAL: aviso de privacidad conforme a la Ley N.° 29733 de Protección de Datos Personales del Perú. Revisar con un asesor legal.]</p>
+  <p class="note">© <span id="year"></span> FIREWORKS ZD. Todos los derechos reservados.</p>
+</footer>
+
+<div class="lightbox" id="lb" hidden role="dialog" aria-modal="true" aria-label="Imagen ampliada">
+  <button class="close" aria-label="Cerrar">×</button>
+  <img alt=""><p></p>
+</div>
+<script src="js/config.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
